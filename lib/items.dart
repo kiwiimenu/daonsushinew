@@ -16,7 +16,7 @@ Container itemContainer(String itemname, String price, BuildContext context) {
           Container(
             // margin: const EdgeInsets.all(2),
             child: Container(
-              height: 60,
+              height: 50,
               alignment: Alignment.bottomCenter,
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
@@ -39,9 +39,7 @@ Container itemContainer(String itemname, String price, BuildContext context) {
                   Flexible(
                     child: Text(
                       itemname,
-                      style: const TextStyle(
-                          fontSize: 15,
-                          color: Colors.white),
+                      style: const TextStyle(fontSize: 15, color: Colors.white),
                     ),
                   )
                 ],

@@ -63,6 +63,7 @@ class MyApp extends StatelessWidget {
         hoverColor: Colors.transparent,
         highlightColor: Colors.transparent,
         splashColor: Colors.transparent,
+        fontFamily: '--apple-system',
       ),
       home: const MyHomePage(title: 'Top Bar'),
     );
@@ -261,8 +262,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ), //end
                       Container(
-                          child: makeCategory(
-                              context, vgcr, "Vege Roll 6pcs", 6)),
+                          child:
+                              makeCategory(context, vgcr, "Vege Roll 6pcs", 6)),
                       Container(
                         padding: EdgeInsets.only(
                             left: 35, right: 35, top: 15, bottom: 15),
@@ -283,8 +284,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
                       Container(
-                          child:
-                              makeCategory(context, cscrl, "Classic Roll 6pcs", 8)),
+                          child: makeCategory(
+                              context, cscrl, "Classic Roll 6pcs", 8)),
                       Container(
                         padding: EdgeInsets.only(
                             left: 35, right: 35, top: 15, bottom: 15),
@@ -294,8 +295,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
                       Container(
-                          child:
-                              makeCategory(context, drgrll, "Dragon Roll 6pcs", 9)),
+                          child: makeCategory(
+                              context, drgrll, "Dragon Roll 6pcs", 9)),
                       Container(
                         padding: EdgeInsets.only(
                             left: 35, right: 35, top: 15, bottom: 15),

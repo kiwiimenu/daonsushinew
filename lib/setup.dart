@@ -41,7 +41,7 @@ Row nameprice(String name, String price, [String desc = ""]) {
         textAlign: TextAlign.right,
       )),
       const SizedBox(
-        height: 50,
+        height: 60,
       )
     ],
   );
