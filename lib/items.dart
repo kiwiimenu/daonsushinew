@@ -16,7 +16,7 @@ Container itemContainer(String itemname, String price, BuildContext context) {
           Container(
             // margin: const EdgeInsets.all(2),
             child: Container(
-              height: 30,
+              height: 50,
               alignment: Alignment.bottomCenter,
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
