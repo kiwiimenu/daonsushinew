@@ -126,7 +126,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     body: SingleChildScrollView(
                         child: Column(children: [
                       Container(
-                          child: makeCategory(context, app, "Appetizers", 1)),
+                          child: makeCategory(
+                              context, app, "Appetizers Firebase", 1)),
                       Container(
                         padding: EdgeInsets.only(
                             left: 35, right: 35, top: 15, bottom: 15),
