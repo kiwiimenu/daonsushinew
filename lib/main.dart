@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(children: [
                       Container(
                           child: makeCategory(
-                              context, app, "Appetizers Firebase", 1)),
+                              context, app, "Appetizers", 1)),
                       Container(
                         padding: EdgeInsets.only(
                             left: 35, right: 35, top: 15, bottom: 15),
