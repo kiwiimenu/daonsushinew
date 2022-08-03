@@ -1,6 +1,6 @@
 # daonsushinew
 
-A new Flutter project.
+Daon sushi's menu
 
 ## Getting Started
 
